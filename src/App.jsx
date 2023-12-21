@@ -1,6 +1,6 @@
 import "./App.css";
-import Demo from "./components/Demo";
 import Hero from "./components/Hero";
+import SummaryTool from "./components/SummaryTool";
 
 const App = () => {
   return (
@@ -8,10 +8,9 @@ const App = () => {
       <div className="main">
         <div className="gradient"></div>
       </div>
-
       <div className="app">
         <Hero />
-        <Demo />
+        <SummaryTool />
       </div>
     </main>
   );
