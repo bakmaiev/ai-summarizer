@@ -1,4 +1,4 @@
-import { linkIcon } from "../assets";
+import { linkIcon, search } from "../assets";
 import PropTypes from "prop-types";
 
 const UrlForm = ({ onSubmit, onChange, value }) => {
@@ -24,7 +24,11 @@ const UrlForm = ({ onSubmit, onChange, value }) => {
         type="submit"
         className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700"
       >
-        Enter
+        <img
+          src={search}
+          alt="search_icon"
+          className="w-[40%] object-contain"
+        />
       </button>
     </form>
   );
